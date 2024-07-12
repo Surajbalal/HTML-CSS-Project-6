@@ -1,0 +1,109 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+    background-image: url(../assets/stethoscope.png);
+    margin: 3%;
+    margin-left: 5%;
+
+  /* width: 900px; */
+}
+/* ------------------------- */
+/* -----Navigation bar------ */
+/* ------------------------- */
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  align-items: center;
+  justify-content: center;
+}
+.nav ul {
+  display: flex;
+  margin-right: 100px;
+}
+.nav ul li {
+  gap: 10px;
+  margin-right: 50px;
+  list-style: none;
+  /* cursor: pointer; */
+}
+.nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+}
+.nav ul li a:hover{
+    color: #20bc7e;
+}
+/* ----------------------- */
+/* -------section--------- */
+/* ----------------------- */
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* -------section left-------- */
+.section-left{
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.section-left h1{
+    font-size: 80px;
+}
+.section-left p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.bottomAngle{
+    position: absolute;
+    left: 700px;
+}
+.button{
+    padding: 30px 120px;
+    border-radius: 50px;
+    border: none;
+    background-color: #20bc7e;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 20px;
+}
+.button:hover{
+    color: #20bc7e;
+    background-color: #000;
+}
+/* -------section right------- */
+.doctor-logo {
+  width: 468px;
+  z-index: 3;
+  right: 0;
+  bottom: 0;
+}
+.doctor-logo,
+.greenBox,
+.yellowBox {
+  position: absolute;
+}
+
+.greenBox {
+  width: 31%;
+  bottom: 30px;
+  right: 20px;
+}
+.yellowBox {
+  width: 29%;
+  z-index: 2;
+    bottom: 25px;
+  right: 0;
+}
+/* ----------------------------------------------- */
+/* ----------------------About Us----------------- */
+/* ----------------------------------------------- *

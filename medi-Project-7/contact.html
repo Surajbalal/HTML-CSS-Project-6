@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+body {
+    background-image: url(../assets/stethoscope.png);
+    margin: 3%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+   
+
+
+  /* width: 900px; */
+}
+/* ------------------------- */
+/* -----Navigation bar------ */
+/* ------------------------- */
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  align-items: center;
+  justify-content: center;
+}
+.nav ul {
+  display: flex;
+  margin-right: 100px;
+}
+.nav ul li {
+  gap: 10px;
+  margin-right: 50px;
+  list-style: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+.nav ul li a:hover{
+    color: #20bc7e;
+}
+/* --------main------- */
+main{
+  /* height: 10000px;
+  width: 10000px; */
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    height: 400px;
+    width: 270px; ;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    background-color:#E9EDE9;
+    margin-top: 140px;
+
+}
+h1{
+    text-align: center;
+}
+input{
+    border-radius: 8px;
+    padding: 7px;
+    margin-bottom: 10px;
+    border: none;
+}
+.card button{
+    background-color: #20bc7e;
+    color: #fff;
+    border-radius: 7px;
+    border: none;
+    padding: 10px 4px;
+margin: 6px;
+cursor: pointer;
+}
+.card button:hover{
+  background-color: #000;
+  color: #20bc7e;
+}
+main{
+    
+}
+
+
+
+
+    </style>
+</head>
+<body>
+       <!-- header -->
+       <header>
+        <!-- navigation -->
+        <div class="navigation ">
+          <!-- logo -->
+          <img src="./assets/logo-1.png" alt="" class="logo" />
+          <!-- list -->
+          <div class="nav">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html" class="about-us">About Us</a></li>
+              <li><a href="">Our services</a></li>
+              <li><a href="">Contact us</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <main>
+      <div class="card">
+        <h1>Contact Form</h1>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter your name" id="name">
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter your email" id="email">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="15" rows="30" placeholder="ENter your message"></textarea>
+        <button>Submit</button>
+
+      </div>
+    </main>
+    </body>
+</html>
